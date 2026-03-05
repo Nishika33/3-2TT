@@ -18,7 +18,7 @@ function Reg()
         try{
             //const res=await axios.post("http://localhost:8080/reg")
             const res=await axios.post(
-                "https:newpro.onrender.com/register",
+                "https://tt-3-omz6.onrender.com/register",
                 data
             )
             alert(res.data)
