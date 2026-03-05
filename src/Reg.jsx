@@ -21,7 +21,7 @@ function Reg()
                 "https://tt-3-omz6.onrender.com/register",
                 data
             )
-            alert(res.data)
+           alert("User Registered Successfully")
         }
         catch(xyz)
         {
